@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct OrtaView: View {
+    
+    @State private var gkCorrect = 30
+    @State private var gkFalse = 0
+    
+    @State private var gyCorrect = 30
+    @State private var gyFalse = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+        VStack{
+            Form{
+                Section{
+                    Stepper("Doğru Sayısı:")
+                }
+            }
+        }
 }
 
 #Preview {

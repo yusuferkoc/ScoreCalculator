@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8852E1862B7264860039467C /* LisansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852E1852B7264860039467C /* LisansView.swift */; };
+		8852E18A2B7264A10039467C /* EgitimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852E1892B7264A10039467C /* EgitimView.swift */; };
+		8852E18C2B7264A90039467C /* OabtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852E18B2B7264A90039467C /* OabtView.swift */; };
+		8852E1902B7264D60039467C /* OnlisansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852E18F2B7264D60039467C /* OnlisansView.swift */; };
 		88C1C2712B6EB39C0089E788 /* Score_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1C2702B6EB39C0089E788 /* Score_CalculatorApp.swift */; };
 		88C1C2732B6EB39C0089E788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1C2722B6EB39C0089E788 /* ContentView.swift */; };
 		88C1C2752B6EB39D0089E788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C1C2742B6EB39D0089E788 /* Assets.xcassets */; };
 		88C1C2782B6EB39D0089E788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C1C2772B6EB39D0089E788 /* Preview Assets.xcassets */; };
 		88C1C2832B701B760089E788 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1C2822B701B760089E788 /* MainView.swift */; };
 		88C1C2852B701B7F0089E788 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1C2842B701B7F0089E788 /* ResultView.swift */; };
+		88D4D6082B73BC7A00E030D6 /* OrtaogretimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4D6072B73BC7A00E030D6 /* OrtaogretimView.swift */; };
+		88D4D60B2B73C03700E030D6 /* HesaplaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4D60A2B73C03700E030D6 /* HesaplaButton.swift */; };
+		88D4D60D2B74581C00E030D6 /* SonucView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D4D60C2B74581C00E030D6 /* SonucView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8852E1852B7264860039467C /* LisansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LisansView.swift; sourceTree = "<group>"; };
+		8852E1892B7264A10039467C /* EgitimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgitimView.swift; sourceTree = "<group>"; };
+		8852E18B2B7264A90039467C /* OabtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OabtView.swift; sourceTree = "<group>"; };
+		8852E18F2B7264D60039467C /* OnlisansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlisansView.swift; sourceTree = "<group>"; };
 		88C1C26D2B6EB39C0089E788 /* Score Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C1C2702B6EB39C0089E788 /* Score_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_CalculatorApp.swift; sourceTree = "<group>"; };
 		88C1C2722B6EB39C0089E788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +34,9 @@
 		88C1C2772B6EB39D0089E788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88C1C2822B701B760089E788 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		88C1C2842B701B7F0089E788 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		88D4D6072B73BC7A00E030D6 /* OrtaogretimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrtaogretimView.swift; sourceTree = "<group>"; };
+		88D4D60A2B73C03700E030D6 /* HesaplaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesaplaButton.swift; sourceTree = "<group>"; };
+		88D4D60C2B74581C00E030D6 /* SonucView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +88,15 @@
 		88C1C2802B701B4F0089E788 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				88D4D6092B73C01900E030D6 /* SharedViews */,
 				88C1C2722B6EB39C0089E788 /* ContentView.swift */,
 				88C1C2822B701B760089E788 /* MainView.swift */,
 				88C1C2842B701B7F0089E788 /* ResultView.swift */,
+				8852E1852B7264860039467C /* LisansView.swift */,
+				8852E1892B7264A10039467C /* EgitimView.swift */,
+				8852E18B2B7264A90039467C /* OabtView.swift */,
+				8852E18F2B7264D60039467C /* OnlisansView.swift */,
+				88D4D6072B73BC7A00E030D6 /* OrtaogretimView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -87,6 +107,15 @@
 				88C1C2702B6EB39C0089E788 /* Score_CalculatorApp.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		88D4D6092B73C01900E030D6 /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				88D4D60A2B73C03700E030D6 /* HesaplaButton.swift */,
+				88D4D60C2B74581C00E030D6 /* SonucView.swift */,
+			);
+			path = SharedViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D4D60B2B73C03700E030D6 /* HesaplaButton.swift in Sources */,
 				88C1C2732B6EB39C0089E788 /* ContentView.swift in Sources */,
 				88C1C2852B701B7F0089E788 /* ResultView.swift in Sources */,
+				8852E18C2B7264A90039467C /* OabtView.swift in Sources */,
 				88C1C2832B701B760089E788 /* MainView.swift in Sources */,
+				88D4D6082B73BC7A00E030D6 /* OrtaogretimView.swift in Sources */,
+				8852E18A2B7264A10039467C /* EgitimView.swift in Sources */,
+				8852E1902B7264D60039467C /* OnlisansView.swift in Sources */,
+				8852E1862B7264860039467C /* LisansView.swift in Sources */,
 				88C1C2712B6EB39C0089E788 /* Score_CalculatorApp.swift in Sources */,
+				88D4D60D2B74581C00E030D6 /* SonucView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
