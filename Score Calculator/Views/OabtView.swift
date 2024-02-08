@@ -80,10 +80,14 @@ struct OabtView: View {
                         .textCase(.none)
                 }
                 Section{
-                    Stepper("Doğru Sayısı:\(gyCorrect,specifier: "%.0f")",value:$gyCorrect, in:0...(60 - gyFalse))
+                    Stepper(value:$gyCorrect, in:0...(60 - gyFalse)){
+                        Label("Doğru Sayısı:\(gyCorrect,specifier: "%.0f")",systemImage: "checkmark")
+                    }
                         .sensoryFeedback(.selection, trigger: gyCorrect)
                         .bold()
-                    Stepper("Doğru Sayısı:\(gyFalse,specifier: "%.0f")",value:$gyFalse, in:0...(60 - gyCorrect))
+                    Stepper(value:$gyFalse, in:0...(60 - gyCorrect)){
+                        Label("Doğru Sayısı:\(gyFalse,specifier: "%.0f")",systemImage: "xmark")
+                    }
                         .sensoryFeedback(.selection, trigger: gyFalse)
                         .bold()
 
